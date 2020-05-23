@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f73f05b1a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>RedBus</h1>
+        <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="sign_in.html">Sign out</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-background">
+        <div class="from-to-input">
+            <div class="from-input">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" placeholder="From">
+            </div>
+            <div class="reverse-button">
+                <i class="fas fa-retweet"></i>
+            </div>
+            <div class="to-input">
+                <input type="text" placeholder="To">
+                <i class="fab fa-font-awesome-flag"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="bus-list">
+        <h2>Available buses</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Pickup</th>
+                    <th>Boarding</th>
+                    <th>Duration</th>
+                    <th>Price</th>
+                    <th style="color: #345D7B;">Book</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>5 star bus</td>
+                    <td>Bangalore</td>
+                    <td>Mysore</td>
+                    <td>Majestic</td>
+                    <td>7:00 AM</td>
+                    <td>3 hours</td>
+                    <td>600</td>
+                    <td class="book-button">Book</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
